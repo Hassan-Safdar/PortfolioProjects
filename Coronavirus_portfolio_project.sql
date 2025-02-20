@@ -4,7 +4,7 @@
 --ALTER COLUMN total_cases decimal
 SELECT *
 FROM sql_project..covidDeaths
-WHERE continent IS not null
+WHERE continent IS NOT null
 
 --what percent of people died due to covid in pakistan
 
